@@ -6,9 +6,9 @@ def my_find(collection)
   
   while i < collection.lenth 
     
-   return collection[i]  if  yield(collection[i])
-     
-   end  
+   return collection[i]  if  
+   
+   yield(collection[i])
    
     
     i = i + 1

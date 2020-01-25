@@ -12,7 +12,7 @@ def my_find(collection)
    
     
     i = i + 1
-    
+     binding.pry
   end 
-  binding.pry
+ 
 end
